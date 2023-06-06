@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		32B2814E2A2E3CA7001C127D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2814D2A2E3CA7001C127D /* AppDelegate.swift */; };
 		32B281502A2E3CA7001C127D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2814F2A2E3CA7001C127D /* SceneDelegate.swift */; };
-		32B281522A2E3CA7001C127D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B281512A2E3CA7001C127D /* ViewController.swift */; };
+		32B281522A2E3CA7001C127D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B281512A2E3CA7001C127D /* MainViewController.swift */; };
 		32B281552A2E3CA7001C127D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B281532A2E3CA7001C127D /* Main.storyboard */; };
 		32B281572A2E3CA9001C127D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B281562A2E3CA9001C127D /* Assets.xcassets */; };
 		32B2815A2A2E3CA9001C127D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B281582A2E3CA9001C127D /* LaunchScreen.storyboard */; };
+		32B281632A2E3CEF001C127D /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B281612A2E3CEF001C127D /* MainTableViewCell.swift */; };
+		32B281642A2E3CEF001C127D /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B281622A2E3CEF001C127D /* MainTableViewCell.xib */; };
+		32B281662A2E41E9001C127D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B281652A2E41E9001C127D /* NetworkManager.swift */; };
+		32B281682A2F7AD6001C127D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B281672A2F7AD6001C127D /* DataModel.swift */; };
+		32B2816A2A2F980F001C127D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B281692A2F980F001C127D /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32B2814A2A2E3CA7001C127D /* HiveScreeningTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiveScreeningTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B2814D2A2E3CA7001C127D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32B2814F2A2E3CA7001C127D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32B281512A2E3CA7001C127D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32B281512A2E3CA7001C127D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		32B281542A2E3CA7001C127D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32B281562A2E3CA9001C127D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32B281592A2E3CA9001C127D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32B2815B2A2E3CA9001C127D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B281612A2E3CEF001C127D /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		32B281622A2E3CEF001C127D /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		32B281652A2E41E9001C127D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		32B281672A2F7AD6001C127D /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		32B281692A2F980F001C127D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				32B2814D2A2E3CA7001C127D /* AppDelegate.swift */,
 				32B2814F2A2E3CA7001C127D /* SceneDelegate.swift */,
-				32B281512A2E3CA7001C127D /* ViewController.swift */,
+				32B281512A2E3CA7001C127D /* MainViewController.swift */,
 				32B281532A2E3CA7001C127D /* Main.storyboard */,
+				32B281612A2E3CEF001C127D /* MainTableViewCell.swift */,
+				32B281622A2E3CEF001C127D /* MainTableViewCell.xib */,
+				32B281652A2E41E9001C127D /* NetworkManager.swift */,
+				32B281672A2F7AD6001C127D /* DataModel.swift */,
+				32B281692A2F980F001C127D /* Extension.swift */,
 				32B281562A2E3CA9001C127D /* Assets.xcassets */,
 				32B281582A2E3CA9001C127D /* LaunchScreen.storyboard */,
 				32B2815B2A2E3CA9001C127D /* Info.plist */,
@@ -127,6 +142,7 @@
 			files = (
 				32B2815A2A2E3CA9001C127D /* LaunchScreen.storyboard in Resources */,
 				32B281572A2E3CA9001C127D /* Assets.xcassets in Resources */,
+				32B281642A2E3CEF001C127D /* MainTableViewCell.xib in Resources */,
 				32B281552A2E3CA7001C127D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32B281522A2E3CA7001C127D /* ViewController.swift in Sources */,
+				32B281522A2E3CA7001C127D /* MainViewController.swift in Sources */,
 				32B2814E2A2E3CA7001C127D /* AppDelegate.swift in Sources */,
+				32B2816A2A2F980F001C127D /* Extension.swift in Sources */,
+				32B281662A2E41E9001C127D /* NetworkManager.swift in Sources */,
+				32B281632A2E3CEF001C127D /* MainTableViewCell.swift in Sources */,
 				32B281502A2E3CA7001C127D /* SceneDelegate.swift in Sources */,
+				32B281682A2F7AD6001C127D /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
